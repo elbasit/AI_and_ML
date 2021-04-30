@@ -7,7 +7,7 @@
 
 # #### Importing  a package and creating an array
 
-# In[1]:
+# In[ ]:
 
 
 import numpy
@@ -16,14 +16,14 @@ array = np.array([1,2,3])
 array
 
 
-# In[2]:
+# In[ ]:
 
 
 list1 = [4,5,6,7]
 type(list1),type(array)
 
 
-# In[3]:
+# In[ ]:
 
 
 #converting array to list
@@ -32,13 +32,13 @@ print(type(arr))
 print(arr)
 
 
-# In[4]:
+# In[ ]:
 
 
 list1,array
 
 
-# In[5]:
+# In[ ]:
 
 
 #Creating 2d and 3d arrays
@@ -55,14 +55,14 @@ print(dim3)
 dim2.ndim,dim3.ndim
 
 
-# In[6]:
+# In[ ]:
 
 
 arr1 = np.array([4,8,5])
 arr1
 
 
-# In[7]:
+# In[ ]:
 
 
 #differnet types of arrays
@@ -73,7 +73,7 @@ arr1,arr2
 
 # # Indexing Arrays
 
-# In[8]:
+# In[ ]:
 
 
 #creating an array of 100 entries
@@ -83,7 +83,7 @@ arr3 = numpy.arange(100)
 arr3
 
 
-# In[9]:
+# In[ ]:
 
 
 #reshaping array in rows and columns
@@ -92,7 +92,7 @@ arr3 = arr3.reshape(10,10)
 arr3
 
 
-# In[10]:
+# In[ ]:
 
 
 #reshaing array into 3 dimensions 
@@ -102,13 +102,13 @@ arr4 = arr4.reshape(7,7,7)
 print(arr4)
 
 
-# In[11]:
+# In[ ]:
 
 
 arr4[1,0,0]
 
 
-# In[12]:
+# In[ ]:
 
 
 arr5 = np.arange(343)
@@ -116,13 +116,13 @@ arr5 = np.array(arr5,ndmin= 7)
 arr5
 
 
-# In[13]:
+# In[ ]:
 
 
 arr4[6,6,6]
 
 
-# In[14]:
+# In[ ]:
 
 
 #Transposing an array
@@ -132,7 +132,7 @@ j= np.transpose(k)
 print(j)
 
 
-# In[15]:
+# In[ ]:
 
 
 #understanding array system
@@ -140,7 +140,7 @@ ar = np.array([[1,2,3],[2,3,5]])
 ar,type(ar),ar.shape
 
 
-# In[16]:
+# In[ ]:
 
 
 dime1 = np.array([[1,2,3],[2,4,2],[2,4,2],[4,8,9]])
@@ -149,7 +149,7 @@ dime2 = np.array([[[1,2,3],[2,4,2],[2,4,2],[4,8,9],[8,5,2],[7,8,9],[0,1,2],[8,9,
 dime1.shape,dime2.shape
 
 
-# In[17]:
+# In[ ]:
 
 
 #changing shape of dimensions of an array
@@ -158,7 +158,7 @@ dime3 = np.array([[[1,2,3],[2,4,2],[2,4,2],[4,8,9],[8,5,2],[7,8,9],[0,1,2],[8,9,
 dime3.shape
 
 
-# In[18]:
+# In[ ]:
 
 
 #other way to change dimensions using concatenate function of numpy
@@ -170,7 +170,7 @@ dime6,dime6.shape
 
 # # Using Numpy to load the data diles
 
-# In[19]:
+# In[ ]:
 
 
 #loading any file into code using numpy
@@ -180,7 +180,7 @@ data
 
 # # Matplotlib 
 
-# In[20]:
+# In[ ]:
 
 
 import matplotlib.pyplot as plt
@@ -198,7 +198,7 @@ print('Total numbers generated :',len(y))
 values,
 
 
-# In[21]:
+# In[ ]:
 
 
 y = [2,4,6,8,90]
@@ -214,7 +214,7 @@ plt.plot(x,y,z,y,z,x,x,z,y,z,)
 plt.show()
 
 
-# In[22]:
+# In[ ]:
 
 
 p = [1,2,3,4,5]
@@ -232,7 +232,7 @@ plt.legend(loc = 'upper left')
 plt.show()
 
 
-# In[23]:
+# In[ ]:
 
 
 # Randomly Plotting Graph
